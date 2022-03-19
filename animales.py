@@ -6,4 +6,6 @@ class Animal ():
     def saluda(self):
         return f"Guag, soy {self.nombre}"
 
-        
+    def caminar(self,pasos):
+        self.pasos=pasos
+        return f"Hoy di {self.pasos} pasitos"
